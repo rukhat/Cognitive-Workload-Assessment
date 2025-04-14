@@ -2,7 +2,7 @@ clc;
 clear;
 close all;
 
-eeglab_path = fileparts(which('/home/ncl-pc2/eeglab/eeglab.m'));
+eeglab_path = fileparts(which('/eeglab/eeglab.m'));
 [ALLEEG EEG CURRENTSET ALLCOM] = eeglab;
 
 files = dir('../dataset/sub-02/ses-S1/eeg/*BACK.set');
